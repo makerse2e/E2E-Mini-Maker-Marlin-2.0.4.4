@@ -22,7 +22,7 @@
 #pragma once
 
 ////////////////////////////
-// VENDOR VERSION EXAMPLE //
+// E2E Mini Maker V0.1 MakersE2E //
 ////////////////////////////
 
 /**
