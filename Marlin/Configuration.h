@@ -484,9 +484,9 @@
 
 
   // E2E Mini Maker
-  #define DEFAULT_Kp 32.27
-  #define DEFAULT_Ki 3.61
-  #define DEFAULT_Kd 72.04
+  #define DEFAULT_Kp 16.00
+  #define DEFAULT_Ki 1.10
+  #define DEFAULT_Kd 57.00
   
 #endif // PIDTEMP
 
@@ -1179,8 +1179,8 @@
  *   With an LCD controller the process is guided step-by-step.
  */
 //#define AUTO_BED_LEVELING_3POINT
-#define AUTO_BED_LEVELING_LINEAR
-//#define AUTO_BED_LEVELING_BILINEAR
+//#define AUTO_BED_LEVELING_LINEAR
+#define AUTO_BED_LEVELING_BILINEAR
 //#define AUTO_BED_LEVELING_UBL
 //#define MESH_BED_LEVELING
 
@@ -1188,7 +1188,7 @@
  * Normally G28 leaves leveling disabled on completion. Enable
  * this option to have G28 restore the prior leveling state.
  */
-//#define RESTORE_LEVELING_AFTER_G28
+#define RESTORE_LEVELING_AFTER_G28
 
 /**
  * Enable detailed logging of G28, G29, M48, etc.
